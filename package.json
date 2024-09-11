@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": ["main", "submodules/*"],
+  "scripts": {
+    "dev": "concurrently 'sh -c \"cd main && npm run dev -- -p 30000\"' 'sh -c \"cd submodules/polyomino && npm run dev -- -p 30001\"' 'sh -c \"cd submodules/color && npm run dev -- -p 30002\"'"
+  },
+  "dependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

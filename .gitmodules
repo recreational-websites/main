@@ -1,0 +1,6 @@
+[submodule "polyomino"]
+	path = submodules/polyomino
+	url = https://github.com/recreational-websites/polyomino.git
+[submodule "color"]
+	path = submodules/color
+	url = https://github.com/recreational-websites/color.git
