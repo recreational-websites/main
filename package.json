@@ -1,10 +1,16 @@
 {
   "private": true,
-  "workspaces": ["main", "submodules/*"],
   "scripts": {
-    "dev": "concurrently 'sh -c \"cd main && npm run dev -- -p 30000\"' 'sh -c \"cd submodules/polyomino && npm run dev -- -p 30001\"' 'sh -c \"cd submodules/color && npm run dev -- -p 30002\"'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
   },
   "dependencies": {
-    "concurrently": "^9.0.0"
+    "next": "^14.2.9"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.4",
+    "@types/react": "18.3.5",
+    "typescript": "5.6.2"
   }
 }
