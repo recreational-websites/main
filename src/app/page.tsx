@@ -1,3 +1,10 @@
 export default function Page() {
-  return <span>Hello world!</span>;
+  return (
+    <ul>
+      <li>
+        <a href="/polyomino">Polyomino</a>
+        <a href="/color">Color</a>
+      </li>
+    </ul>
+  );
 }
