@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next"
+    "start": "next start"
   },
   "dependencies": {
     "@types/node": "22.5.4",
